@@ -9,7 +9,7 @@ function startTime() {
     var s=today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('jam').innerHTML = h+":"+m+":" //+s;
+    document.getElementById('jam').innerHTML = h+":"+m //+":"+s;
     var t = setTimeout(function(){startTime()},500);
 }
 
